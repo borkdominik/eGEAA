@@ -1,9 +1,5 @@
 # Graph-based Analysis of Enterprise Architecture Models
-Repository contains implementation of prototype eGEAA platform. Work is still in progress.
-![ScreenShot](/Figures/eGEAA-Platform.png)
-
-# Generic Framework
-![ScreenShot](/Figures/Generic-Framework-2.png)
+This repository contains the implementation of the eGEAA platform for graph-based analysis of Enterprise Architecture models.
 
 # Transformation clases
 Utility class for Archi can be found under `at.ac.tuwien.big.msm.cmgba.graphml/src/at/ac/tuwien/big/msm/cmgba/graphml/ArchiUtility.java`:
