@@ -19,6 +19,10 @@ public String getGraphXML();
 ```
 
 
+## Project Setup
+In Eclipse select Import -> General -> Projects from Folder or Archive and select all projects.
+Additionally, 2nd step Import -> Maven -> Existing Maven Projects and select `webapp` folder. 
+
 ## Web UI
 To start the Web UI navigate to `webapp` folder and start the Spring Application.
 
