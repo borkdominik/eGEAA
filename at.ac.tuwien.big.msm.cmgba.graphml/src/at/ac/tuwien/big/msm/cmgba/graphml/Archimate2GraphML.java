@@ -22,7 +22,7 @@ import com.archimatetool.model.impl.DiagramModelArchimateObject;
 import com.archimatetool.model.impl.DiagramModelBendpoint;
 import com.archimatetool.model.impl.DiagramModelNote;
 import com.archimatetool.model.impl.DiagramModelReference;
-import com.archimatetool.model.viewpoints.IViewpoint;
+//import com.archimatetool.model.viewpoints.IViewpoint;
 
 public class Archimate2GraphML extends Ecore2GraphML {
 
