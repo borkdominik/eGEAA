@@ -1,267 +1,1130 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
-     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">  
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" 
+xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" 
+xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" 
+xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:y="http://www.yworks.com/xml/graphml" 
+xmlns:yed="http://www.yworks.com/xml/yed/3" 
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">  
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/> 
 <key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
 <key id="Label" for="node" attr.name="Label" attr.type="string"/> 
-<key id="City_cityName" for="node" attr.name="City_cityName" attr.type="string"/> 
-<key id="Store_name" for="node" attr.name="Store_name" attr.type="string"/> 
-<key id="Book_bookName" for="node" attr.name="Book_bookName" attr.type="string"/> 
-<key id="Worker_workerName" for="node" attr.name="Worker_workerName" attr.type="string"/> 
-<key id="User_username" for="node" attr.name="User_username" attr.type="string"/> 
-<key id="BookBorrow_dateFrom" for="node" attr.name="BookBorrow_dateFrom" attr.type="string"/> 
-<key id="BookBorrow_dateTo" for="node" attr.name="BookBorrow_dateTo" attr.type="string"/> 
-<key id="EReference_ReferenceName" for="edge" attr.name="EReference_ReferenceName" attr.type="string"/> 
-<key id="Label" for="edge" attr.name="Label" attr.type="string"/> 
-<graph id="123" edgedefault="undirected"> 
-<node id="1149377174"> 
+<key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="cityName" for="node" attr.name="cityName" attr.type="string"/> 
+<key id="name" for="node" attr.name="name" attr.type="string"/> 
+<key id="bookName" for="node" attr.name="bookName" attr.type="string"/> 
+<key id="workerName" for="node" attr.name="workerName" attr.type="string"/> 
+<key id="username" for="node" attr.name="username" attr.type="string"/> 
+<key id="dateFrom" for="node" attr.name="dateFrom" attr.type="string"/> 
+<key id="dateTo" for="node" attr.name="dateTo" attr.type="string"/> 
+<key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
+<graph id="123" edgedefault="directed"> 
+<node id="1297502382"> 
 <data key="ClassName">City</data> 
-<data key="Label">tmodel.impl.CityImpl@44821a96 (cityName: Vienna)</data> 
-<data key="City_cityName">Vienna</data> 
+<data key="Label">tmodel.impl.CityImpl@4d5650ae (cityName: Vienna)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.CityImpl@4d5650ae (cityName: Vienna)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="cityName">Vienna</data> 
 </node> 
-<node id="1932274274"> 
+<node id="778731861"> 
 <data key="ClassName">Store</data> 
-<data key="Label">tmodel.impl.StoreImpl@732c2a62 (name: Store 1)</data> 
-<data key="Store_name">Store 1</data> 
+<data key="Label">tmodel.impl.StoreImpl@2e6a8155 (name: Store 1)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.StoreImpl@2e6a8155 (name: Store 1)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="name">Store 1</data> 
 </node> 
-<node id="657381435"> 
+<node id="1646371921"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@272ed83b (bookName: book 11)</data> 
-<data key="Book_bookName">book 11</data> 
+<data key="Label">tmodel.impl.BookImpl@6221a451 (bookName: book 11)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@6221a451 (bookName: book 11)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 11</data> 
 </node> 
-<node id="1107217291"> 
+<node id="1383178166"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@41fecb8b (bookName: book 12)</data> 
-<data key="Book_bookName">book 12</data> 
+<data key="Label">tmodel.impl.BookImpl@52719fb6 (bookName: book 12)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@52719fb6 (bookName: book 12)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 12</data> 
 </node> 
-<node id="302977067"> 
+<node id="806511723"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@120f102b (bookName: book 13)</data> 
-<data key="Book_bookName">book 13</data> 
+<data key="Label">tmodel.impl.BookImpl@3012646b (bookName: book 13)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@3012646b (bookName: book 13)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 13</data> 
 </node> 
-<node id="6444850"> 
+<node id="1250442005"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@625732 (bookName: book 14)</data> 
-<data key="Book_bookName">book 14</data> 
+<data key="Label">tmodel.impl.BookImpl@4a883b15 (bookName: book 14)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@4a883b15 (bookName: book 14)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 14</data> 
 </node> 
-<node id="1373419525"> 
+<node id="627318073"> 
 <data key="ClassName">Worker</data> 
-<data key="Label">tmodel.impl.WorkerImpl@51dcb805 (workerName: Worker 11)</data> 
-<data key="Worker_workerName">Worker 11</data> 
+<data key="Label">tmodel.impl.WorkerImpl@25641d39 (workerName: Worker 11)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.WorkerImpl@25641d39 (workerName: Worker 11)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="workerName">Worker 11</data> 
 </node> 
-<node id="1716093734"> 
+<node id="2067180044"> 
 <data key="ClassName">Worker</data> 
-<data key="Label">tmodel.impl.WorkerImpl@66498326 (workerName: Worker 12)</data> 
-<data key="Worker_workerName">Worker 12</data> 
+<data key="Label">tmodel.impl.WorkerImpl@7b36aa0c (workerName: Worker 12)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.WorkerImpl@7b36aa0c (workerName: Worker 12)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="workerName">Worker 12</data> 
 </node> 
-<node id="212683148"> 
+<node id="1478797373"> 
 <data key="ClassName">Store</data> 
-<data key="Label">tmodel.impl.StoreImpl@cad498c (name: Store 2)</data> 
-<data key="Store_name">Store 2</data> 
+<data key="Label">tmodel.impl.StoreImpl@5824a83d (name: Store 2)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.StoreImpl@5824a83d (name: Store 2)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="name">Store 2</data> 
 </node> 
-<node id="509891820"> 
+<node id="1400856767"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@1e6454ec (bookName: book 21)</data> 
-<data key="Book_bookName">book 21</data> 
+<data key="Label">tmodel.impl.BookImpl@537f60bf (bookName: book 21)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@537f60bf (bookName: book 21)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 21</data> 
 </node> 
-<node id="718068661"> 
+<node id="1450652220"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@2accdbb5 (bookName: book 22)</data> 
-<data key="Book_bookName">book 22</data> 
+<data key="Label">tmodel.impl.BookImpl@5677323c (bookName: book 22)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@5677323c (bookName: book 22)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 22</data> 
 </node> 
-<node id="11939193"> 
+<node id="417301556"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@b62d79 (bookName: book 23)</data> 
-<data key="Book_bookName">book 23</data> 
+<data key="Label">tmodel.impl.BookImpl@18df8434 (bookName: book 23)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@18df8434 (bookName: book 23)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 23</data> 
 </node> 
-<node id="1714550218"> 
+<node id="1707582034"> 
 <data key="ClassName">Book</data> 
-<data key="Label">tmodel.impl.BookImpl@6631f5ca (bookName: book 24)</data> 
-<data key="Book_bookName">book 24</data> 
+<data key="Label">tmodel.impl.BookImpl@65c7a252 (bookName: book 24)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookImpl@65c7a252 (bookName: book 24)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="bookName">book 24</data> 
 </node> 
-<node id="1523457748"> 
+<node id="1293241549"> 
 <data key="ClassName">Worker</data> 
-<data key="Label">tmodel.impl.WorkerImpl@5ace1ed4 (workerName: worker 21)</data> 
-<data key="Worker_workerName">worker 21</data> 
+<data key="Label">tmodel.impl.WorkerImpl@4d154ccd (workerName: worker 21)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.WorkerImpl@4d154ccd (workerName: worker 21)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="workerName">worker 21</data> 
 </node> 
-<node id="370370379"> 
+<node id="580673921"> 
 <data key="ClassName">Worker</data> 
-<data key="Label">tmodel.impl.WorkerImpl@1613674b (workerName: worker 22)</data> 
-<data key="Worker_workerName">worker 22</data> 
+<data key="Label">tmodel.impl.WorkerImpl@229c6181 (workerName: worker 22)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.WorkerImpl@229c6181 (workerName: worker 22)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="workerName">worker 22</data> 
 </node> 
-<node id="671046933"> 
+<node id="1183231938"> 
 <data key="ClassName">User</data> 
-<data key="Label">tmodel.impl.UserImpl@27ff5d15 (username: muhamed)</data> 
-<data key="User_username">muhamed</data> 
+<data key="Label">tmodel.impl.UserImpl@4686afc2 (username: muhamed)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.UserImpl@4686afc2 (username: muhamed)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="username">muhamed</data> 
 </node> 
-<node id="1309238149"> 
+<node id="504053874"> 
 <data key="ClassName">BookBorrow</data> 
-<data key="Label">tmodel.impl.BookBorrowImpl@4e096385 (dateFrom: 21.05.2020, dateTo: 25.05.2020)</data> 
-<data key="BookBorrow_dateFrom">21.05.2020</data> 
-<data key="BookBorrow_dateTo">25.05.2020</data> 
+<data key="Label">tmodel.impl.BookBorrowImpl@1e0b4072 (dateFrom: 21.05.2020, dateTo: 25.05.2020)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookBorrowImpl@1e0b4072 (dateFrom: 21.05.2020, dateTo: 25.05.2020)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="dateFrom">21.05.2020</data> 
+<data key="dateTo">25.05.2020</data> 
 </node> 
-<node id="1687940142"> 
+<node id="2032079962"> 
 <data key="ClassName">BookBorrow</data> 
-<data key="Label">tmodel.impl.BookBorrowImpl@649bec2e (dateFrom: 15.05.2020, dateTo: 20.05.2020)</data> 
-<data key="BookBorrow_dateFrom">15.05.2020</data> 
-<data key="BookBorrow_dateTo">20.05.2020</data> 
+<data key="Label">tmodel.impl.BookBorrowImpl@791f145a (dateFrom: 15.05.2020, dateTo: 20.05.2020)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookBorrowImpl@791f145a (dateFrom: 15.05.2020, dateTo: 20.05.2020)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="dateFrom">15.05.2020</data> 
+<data key="dateTo">20.05.2020</data> 
 </node> 
-<node id="1765795529"> 
+<node id="953082513"> 
 <data key="ClassName">User</data> 
-<data key="Label">tmodel.impl.UserImpl@693fe6c9 (username: dominik)</data> 
-<data key="User_username">dominik</data> 
+<data key="Label">tmodel.impl.UserImpl@38cee291 (username: dominik)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.UserImpl@38cee291 (username: dominik)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="username">dominik</data> 
 </node> 
-<node id="888473870"> 
+<node id="1262854901"> 
 <data key="ClassName">BookBorrow</data> 
-<data key="Label">tmodel.impl.BookBorrowImpl@34f5090e (dateFrom: 20.05.2020, dateTo: 20.05.2020)</data> 
-<data key="BookBorrow_dateFrom">20.05.2020</data> 
-<data key="BookBorrow_dateTo">20.05.2020</data> 
+<data key="Label">tmodel.impl.BookBorrowImpl@4b45a2f5 (dateFrom: 20.05.2020, dateTo: 20.05.2020)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookBorrowImpl@4b45a2f5 (dateFrom: 20.05.2020, dateTo: 20.05.2020)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="dateFrom">20.05.2020</data> 
+<data key="dateTo">20.05.2020</data> 
 </node> 
-<node id="837108062"> 
+<node id="252277567"> 
 <data key="ClassName">BookBorrow</data> 
-<data key="Label">tmodel.impl.BookBorrowImpl@31e5415e (dateFrom: 01.01.2020, dateTo: 01.02.2020)</data> 
-<data key="BookBorrow_dateFrom">01.01.2020</data> 
-<data key="BookBorrow_dateTo">01.02.2020</data> 
+<data key="Label">tmodel.impl.BookBorrowImpl@f09733f (dateFrom: 01.01.2020, dateTo: 01.02.2020)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookBorrowImpl@f09733f (dateFrom: 01.01.2020, dateTo: 01.02.2020)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="dateFrom">01.01.2020</data> 
+<data key="dateTo">01.02.2020</data> 
 </node> 
-<node id="170144208"> 
+<node id="238357312"> 
 <data key="ClassName">BookBorrow</data> 
-<data key="Label">tmodel.impl.BookBorrowImpl@a2431d0 (dateFrom: 01.01.2020, dateTo: 01.02.2020)</data> 
-<data key="BookBorrow_dateFrom">01.01.2020</data> 
-<data key="BookBorrow_dateTo">01.02.2020</data> 
+<data key="Label">tmodel.impl.BookBorrowImpl@e350b40 (dateFrom: 01.01.2020, dateTo: 01.02.2020)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.BookBorrowImpl@e350b40 (dateFrom: 01.01.2020, dateTo: 01.02.2020)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="dateFrom">01.01.2020</data> 
+<data key="dateTo">01.02.2020</data> 
 </node> 
-<node id="482052083"> 
+<node id="1101048445"> 
 <data key="ClassName">User</data> 
-<data key="Label">tmodel.impl.UserImpl@1cbb87f3 (username: john)</data> 
-<data key="User_username">john</data> 
+<data key="Label">tmodel.impl.UserImpl@41a0aa7d (username: john)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">tmodel.impl.UserImpl@41a0aa7d (username: john)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="username">john</data> 
 </node> 
-<edge source="1149377174" target="1932274274"> 
-<data key="EReference_ReferenceName">stores</data> 
+<edge source="1297502382" target="778731861"> 
+<data key="ReferenceName">stores</data> 
 <data key="Label">stores</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">stores<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1149377174" target="212683148"> 
-<data key="EReference_ReferenceName">stores</data> 
+<edge source="1297502382" target="1478797373"> 
+<data key="ReferenceName">stores</data> 
 <data key="Label">stores</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">stores<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1149377174" target="671046933"> 
-<data key="EReference_ReferenceName">users</data> 
+<edge source="1297502382" target="1183231938"> 
+<data key="ReferenceName">users</data> 
 <data key="Label">users</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">users<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1149377174" target="1765795529"> 
-<data key="EReference_ReferenceName">users</data> 
+<edge source="1297502382" target="953082513"> 
+<data key="ReferenceName">users</data> 
 <data key="Label">users</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">users<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1149377174" target="482052083"> 
-<data key="EReference_ReferenceName">users</data> 
+<edge source="1297502382" target="1101048445"> 
+<data key="ReferenceName">users</data> 
 <data key="Label">users</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">users<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1932274274" target="657381435"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="778731861" target="1646371921"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1932274274" target="1107217291"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="778731861" target="1383178166"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1932274274" target="302977067"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="778731861" target="806511723"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1932274274" target="6444850"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="778731861" target="1250442005"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1932274274" target="1373419525"> 
-<data key="EReference_ReferenceName">workers</data> 
+<edge source="778731861" target="627318073"> 
+<data key="ReferenceName">workers</data> 
 <data key="Label">workers</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">workers<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1932274274" target="1716093734"> 
-<data key="EReference_ReferenceName">workers</data> 
+<edge source="778731861" target="2067180044"> 
+<data key="ReferenceName">workers</data> 
 <data key="Label">workers</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">workers<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="212683148" target="509891820"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="1478797373" target="1400856767"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="212683148" target="718068661"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="1478797373" target="1450652220"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="212683148" target="11939193"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="1478797373" target="417301556"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="212683148" target="1714550218"> 
-<data key="EReference_ReferenceName">books</data> 
+<edge source="1478797373" target="1707582034"> 
+<data key="ReferenceName">books</data> 
 <data key="Label">books</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">books<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="212683148" target="1523457748"> 
-<data key="EReference_ReferenceName">workers</data> 
+<edge source="1478797373" target="1293241549"> 
+<data key="ReferenceName">workers</data> 
 <data key="Label">workers</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">workers<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="212683148" target="370370379"> 
-<data key="EReference_ReferenceName">workers</data> 
+<edge source="1478797373" target="580673921"> 
+<data key="ReferenceName">workers</data> 
 <data key="Label">workers</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">workers<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="671046933" target="1309238149"> 
-<data key="EReference_ReferenceName">borrowedBooks</data> 
+<edge source="1183231938" target="504053874"> 
+<data key="ReferenceName">borrowedBooks</data> 
 <data key="Label">borrowedBooks</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">borrowedBooks<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="671046933" target="1687940142"> 
-<data key="EReference_ReferenceName">borrowedBooks</data> 
+<edge source="1183231938" target="2032079962"> 
+<data key="ReferenceName">borrowedBooks</data> 
 <data key="Label">borrowedBooks</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">borrowedBooks<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1309238149" target="657381435"> 
-<data key="EReference_ReferenceName">issuedBook</data> 
+<edge source="504053874" target="1646371921"> 
+<data key="ReferenceName">issuedBook</data> 
 <data key="Label">issuedBook</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">issuedBook<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1309238149" target="1373419525"> 
-<data key="EReference_ReferenceName">responsibleWorker</data> 
+<edge source="504053874" target="627318073"> 
+<data key="ReferenceName">responsibleWorker</data> 
 <data key="Label">responsibleWorker</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">responsibleWorker<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1687940142" target="1107217291"> 
-<data key="EReference_ReferenceName">issuedBook</data> 
+<edge source="2032079962" target="1383178166"> 
+<data key="ReferenceName">issuedBook</data> 
 <data key="Label">issuedBook</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">issuedBook<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1687940142" target="1373419525"> 
-<data key="EReference_ReferenceName">responsibleWorker</data> 
+<edge source="2032079962" target="627318073"> 
+<data key="ReferenceName">responsibleWorker</data> 
 <data key="Label">responsibleWorker</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">responsibleWorker<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1765795529" target="888473870"> 
-<data key="EReference_ReferenceName">borrowedBooks</data> 
+<edge source="953082513" target="1262854901"> 
+<data key="ReferenceName">borrowedBooks</data> 
 <data key="Label">borrowedBooks</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">borrowedBooks<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1765795529" target="837108062"> 
-<data key="EReference_ReferenceName">borrowedBooks</data> 
+<edge source="953082513" target="252277567"> 
+<data key="ReferenceName">borrowedBooks</data> 
 <data key="Label">borrowedBooks</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">borrowedBooks<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="1765795529" target="170144208"> 
-<data key="EReference_ReferenceName">borrowedBooks</data> 
+<edge source="953082513" target="238357312"> 
+<data key="ReferenceName">borrowedBooks</data> 
 <data key="Label">borrowedBooks</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">borrowedBooks<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="888473870" target="11939193"> 
-<data key="EReference_ReferenceName">issuedBook</data> 
+<edge source="1262854901" target="417301556"> 
+<data key="ReferenceName">issuedBook</data> 
 <data key="Label">issuedBook</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">issuedBook<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="888473870" target="370370379"> 
-<data key="EReference_ReferenceName">responsibleWorker</data> 
+<edge source="1262854901" target="580673921"> 
+<data key="ReferenceName">responsibleWorker</data> 
 <data key="Label">responsibleWorker</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">responsibleWorker<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="837108062" target="302977067"> 
-<data key="EReference_ReferenceName">issuedBook</data> 
+<edge source="252277567" target="806511723"> 
+<data key="ReferenceName">issuedBook</data> 
 <data key="Label">issuedBook</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">issuedBook<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="837108062" target="1716093734"> 
-<data key="EReference_ReferenceName">responsibleWorker</data> 
+<edge source="252277567" target="2067180044"> 
+<data key="ReferenceName">responsibleWorker</data> 
 <data key="Label">responsibleWorker</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">responsibleWorker<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="170144208" target="1714550218"> 
-<data key="EReference_ReferenceName">issuedBook</data> 
+<edge source="238357312" target="1707582034"> 
+<data key="ReferenceName">issuedBook</data> 
 <data key="Label">issuedBook</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">issuedBook<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
-<edge source="170144208" target="370370379"> 
-<data key="EReference_ReferenceName">responsibleWorker</data> 
+<edge source="238357312" target="580673921"> 
+<data key="ReferenceName">responsibleWorker</data> 
 <data key="Label">responsibleWorker</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">responsibleWorker<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
 </edge> 
 </graph> 
 </graphml> 

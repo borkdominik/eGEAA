@@ -16,27 +16,39 @@
 <body>
 
 	<div class="jumbotron text-center">
-		<h1>EA Model to Graph Transformation</h1>
-		<p>Transform your Archi or ADOxx model to GraphML and apply graph based-anaylsis.</p>
+		<h1>CM2KG Conceptual Model to Knowledge Graph</h1>
+		<p>Transform your conceptual model (Archi, ADOxx, Papyrus ...) to GraphML and gain insights about your model by apply graph based-anaylsis.</p>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h3>Step 1</h3>
 				<p>Upload your model.</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h3>Step 2</h3>
 				<p>Your model is converted..</p>
 
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h3>Step 3</h3>
-				<p>Download your GraphML model.</p>
+				<p>Take your GraphML model.</p>
+			</div>
+			
+			<div class="col-sm-3">
+				<h3>Step 4</h3>
+				<p>Gain insight about your model.</p>
 			</div>
 		</div>
+		
+		
 		<div class="">
+			<a class="btn btn-light btn-lg active" role="button" aria-pressed="true" href="#">
+				<img src="https://www.eclipse.org/modeling/emf/images/emf_logo.png" width="50">
+				Ecore
+			</a>
+			
 			<a class="btn btn-light btn-lg active" role="button" aria-pressed="true" th:href="@{~/upload/archi}">
 				<img src="https://www.archimatetool.com/wp-content/uploads/2018/07/header.png" width="50">
 				Archi
@@ -44,6 +56,10 @@
 			<a class="btn btn-light btn-lg active" role="button" aria-pressed="true" th:href="@{~/upload/adoxx}">
 				<img src="https://www.adoxx.org/live/image/layout_set_logo?img_id=179909&amp;t=1613409791706" width="20">
 				ADOxx
+			</a>
+			<a class="btn btn-light btn-lg active" role="button" aria-pressed="true" th:href="@{~/upload/papyrusuml}">
+				<img src="https://www.eclipse.org/papyrus/img/logo.png" width="20">
+				Papyrus
 			</a>
 			
 		</div>

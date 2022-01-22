@@ -3,12 +3,17 @@
   <viewpoint:DAnalysis uid="_ehTxoAYtEeuRQ5Lo_rtbJg" selectedViews="_eiHC4AYtEeuRQ5Lo_rtbJg _x3URcAdIEeuLHY8BQlV9Qg _x3l-QAdIEeuLHY8BQlV9Qg _x36uYAdIEeuLHY8BQlV9Qg" version="14.3.1.202003261200">
     <semanticResources>graphml.ecore</semanticResources>
     <semanticResources>graphml.genmodel</semanticResources>
-    <semanticResources>../instances/GraphML_Instance.xmi</semanticResources>
-    <semanticResources>../instances/bookStore1.ecore</semanticResources>
-    <semanticResources>../instances/bookStore2.ecore</semanticResources>
     <semanticResources>../testModel/testmodel.ecore</semanticResources>
     <semanticResources>../instances/bookStore_with_ref1.ecore</semanticResources>
-    <semanticResources>../instances/teststore_with_ref1.ecore</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+    <semanticResources>../PapyrusInstances/PapyrusTestModel_withAbstraction.uml</semanticResources>
+    <semanticResources>../PapyrusInstances/PapyrusTestModel_initial.uml</semanticResources>
+    <semanticResources>../PapyrusInstances/PapyrusTestModel_unutilizedAbstraction.uml</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_eiHC4AYtEeuRQ5Lo_rtbJg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_eiVFUQYtEeuRQ5Lo_rtbJg" name="graphml" repPath="#_eiT3MAYtEeuRQ5Lo_rtbJg" changeId="92bbd889-c583-4c08-8286-22a4f2f6a295">

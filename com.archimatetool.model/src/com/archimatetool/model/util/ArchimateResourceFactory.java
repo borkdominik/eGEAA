@@ -67,8 +67,9 @@ public class ArchimateResourceFactory extends ResourceFactoryImpl {
          * This is needed to create an ArchimateModel object from any file (thus pattern "*") without relying on its extension.
          * Without this code it is impossible to load a model from file without extension (error "Class 'model' is not found or is abstract").
          */
-        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("*", new ArchimateResourceFactory());  //$NON-NLS-1$
-        
+        //resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("*", new ArchimateResourceFactory());  //$NON-NLS-1$
+        System.out.println("setting getExtensionToFactoryMap: ArchimateResourceFactory");
+        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("archimate", new ArchimateResourceFactory());  //$NON-NLS-1$
         return resourceSet;
     }
 
